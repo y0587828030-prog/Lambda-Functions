@@ -42,3 +42,12 @@
 ## step 9
 access_message =lambda age, has_ticket, is_vip : "vip entrance" if is_vip else "regular entrance" if age  >= 18 and has_ticket else "buy ticket" if age >= 18 else "too young"
 print(access_message(25, True,  False))
+print(access_message(25, False, False))
+print(access_message(15, True, False))
+print(access_message(15, False, True))
+
+
+
+
+
+## step 10
