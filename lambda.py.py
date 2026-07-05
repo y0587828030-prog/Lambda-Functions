@@ -12,5 +12,7 @@
 # print("yehosh","zaltz")
 
 ##step 4
-
+grade_status = lambda grade: f"pass" if grade >= 55 else "fail"
+print(grade_status(50))
+print(grade_status(90))
 
