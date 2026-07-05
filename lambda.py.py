@@ -40,14 +40,22 @@
 # print(shipping_cost(2, False))
 
 ## step 9
-access_message =lambda age, has_ticket, is_vip : "vip entrance" if is_vip else "regular entrance" if age  >= 18 and has_ticket else "buy ticket" if age >= 18 else "too young"
-print(access_message(25, True,  False))
-print(access_message(25, False, False))
-print(access_message(15, True, False))
-print(access_message(15, False, True))
-
-
-
+# access_message =lambda age, has_ticket, is_vip : "vip entrance" if is_vip else "regular entrance" if age  >= 18 and has_ticket else "buy ticket" if age >= 18 else "too young"
+# print(access_message(25, True,  False))
+# print(access_message(25, False, False))
+# print(access_message(15, True, False))
+# print(access_message(15, False, True))
 
 
 ## step 10
+def ticket_price(age,is_student):
+    if age < 12:
+      return 20
+    elif is_student == True:
+       return 30 
+    else:
+       return 50
+
+print(ticket_price(10, False))
+print(ticket_price(20, True)) 
+print(ticket_price(20, False))
