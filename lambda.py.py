@@ -32,9 +32,13 @@
 
 # print(item_total({"name": "Pen", "price": 5, "amount": 10}))
 
-#step 8
-shipping_cost = lambda weight, express: 50 if express and weight > 5 else  30  if  express else 25 if weight > 5 else 10
-print(shipping_cost(3, True))
-print(shipping_cost(8, True))
-print(shipping_cost(8, False))
-print(shipping_cost(2, False))
+# #step 8
+# shipping_cost = lambda weight, express: 50 if express and weight > 5 else  30  if  express else 25 if weight > 5 else 10
+# print(shipping_cost(3, True))
+# print(shipping_cost(8, True))
+# print(shipping_cost(8, False))
+# print(shipping_cost(2, False))
+
+## step 9
+access_message =lambda age, has_ticket, is_vip : "vip entrance" if is_vip else "regular entrance" if age  >= 18 and has_ticket else "buy ticket" if age >= 18 else "too young"
+print(access_message(25, True,  False))
