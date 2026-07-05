@@ -67,3 +67,12 @@ numbers.sort()
 print(numbers) 
 
 
+##step 2
+students = [
+    ("Dana", 85),
+    ("Eli", 92),
+    ("Noa", 78)
+]
+
+sorted_students = sorted(students, key=lambda x: x[1])
+print(sorted_students)
