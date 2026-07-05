@@ -76,3 +76,15 @@ students = [
 
 sorted_students = sorted(students, key=lambda x: x[1])
 print(sorted_students)
+
+#step 3
+students = [
+    {"name": "Dana", "grade": 85},
+    {"name": "Eli", "grade": 92},
+    {"name": "Noa", "grade": 78}
+]
+
+
+sorted_students = sorted(students, key=lambda x: x["grade"])
+print(sorted_students)
+
