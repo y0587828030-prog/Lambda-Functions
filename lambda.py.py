@@ -12,7 +12,12 @@
 # print("yehosh","zaltz")
 
 ##step 4
-grade_status = lambda grade: f"pass" if grade >= 55 else "fail"
-print(grade_status(50))
-print(grade_status(90))
+# grade_status = lambda grade: f"pass" if grade >= 55 else "fail"
+# print(grade_status(50))
+# print(grade_status(90))
 
+#step 5
+larger = lambda num1 , num2 : num1 if num1 > num2 else num2
+print(larger(10,5))
+print(larger(10,100))
+print(larger(10,10))
