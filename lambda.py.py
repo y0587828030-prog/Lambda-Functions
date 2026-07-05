@@ -88,3 +88,13 @@ students = [
 sorted_students = sorted(students, key=lambda x: x["grade"])
 print(sorted_students)
 
+##step 4
+products = [
+    {"name": "Pen", "price": 5, "amount": 10},
+    {"name": "Book", "price": 40, "amount": 2},
+    {"name": "Bag", "price": 80, "amount": 1}
+]
+
+sorted_products = sorted(products, key=lambda x: x["price"] * x["amount"])
+print(sorted_products)
+
