@@ -3,9 +3,14 @@
 # print(manager_son_price(100, True))
 
 ##step 2
-final_price = lambda price, discount : price / 100 *(100 - discount)
-print(final_price(200,10))
+# final_price = lambda price, discount : price / 100 *(100 - discount)
+# print(final_price(200,10))
 
 
-# fn = lambda price: price * 0.9 if price >= 100 else price 
-# print(fn(99))
+# ##step 3
+# full_name = lambda first_name, last_name:  first_name + last_name
+# print("yehosh","zaltz")
+
+##step 4
+
+
