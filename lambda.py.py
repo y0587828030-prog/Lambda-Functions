@@ -47,52 +47,53 @@
 # print(access_message(15, False, True))
 
 
-## step 10
-def ticket_price(age,is_student):
-    if age < 12:
-      return 20
-    elif is_student == True:
-       return 30 
-    else:
-       return 50
+# ## step 10
+# def ticket_price(age,is_student):
+#     if age < 12:
+#       return 20
+#     elif is_student == True:
+#        return 30 
+#     else:
+#        return 50
 
-print(ticket_price(10, False))
-print(ticket_price(20, True)) 
-print(ticket_price(20, False))
+# print(ticket_price(10, False))
+# print(ticket_price(20, True)) 
+# print(ticket_price(20, False))
 
-##Self-Learn Section — Lambda with Sort
-##step 1
-numbers = [5, 2, 9, 1, 7]
-numbers.sort()
-print(numbers) 
-
-
-##step 2
-students = [
-    ("Dana", 85),
-    ("Eli", 92),
-    ("Noa", 78)
-]
-
-sorted_students = sorted(students, key=lambda x: x[1])
-print(sorted_students)
-
-#step 3
-students = [
-    {"name": "Dana", "grade": 85},
-    {"name": "Eli", "grade": 92},
-    {"name": "Noa", "grade": 78}
-]
+# ##Self-Learn Section — Lambda with Sort
+# ##step 1
+# numbers = [5, 2, 9, 1, 7]
+# numbers.sort()
+# print(numbers) 
 
 
-sorted_students = sorted(students, key=lambda x: x["grade"])
-print(sorted_students)
+# ##step 2
+# students = [
+#     ("Dana", 85),
+#     ("Eli", 92),
+#     ("Noa", 78)
+# ]
 
-##step 4
+# sorted_students = sorted(students, key=lambda x: x[1])
+# print(sorted_students)
+
+# #step 3
+# students = [
+#     {"name": "Dana", "grade": 85},
+#     {"name": "Eli", "grade": 92},
+#     {"name": "Noa", "grade": 78}
+# ]
+
+
+# sorted_students = sorted(students, key=lambda x: x["grade"])
+# print(sorted_students)
+
+#step 4
 products = [
-    {"name": "Pen", "price": 5, "amount": 10},
+    {"name": "Pen", "price": 50, "amount": 10},
     {"name": "Book", "price": 40, "amount": 2},
     {"name": "Bag", "price": 80, "amount": 1}
+    
 ]
 
 sorted_products = sorted(products, key=lambda x: x["price"] * x["amount"])
