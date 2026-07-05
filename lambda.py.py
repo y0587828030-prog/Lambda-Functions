@@ -59,3 +59,11 @@ def ticket_price(age,is_student):
 print(ticket_price(10, False))
 print(ticket_price(20, True)) 
 print(ticket_price(20, False))
+
+##Self-Learn Section — Lambda with Sort
+##step 1
+numbers = [5, 2, 9, 1, 7]
+numbers.sort()
+print(numbers) 
+
+
